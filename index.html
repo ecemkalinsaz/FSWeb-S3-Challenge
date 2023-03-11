@@ -1,141 +1,157 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-	<meta charset="utf-8">
+    <title>Sprint Challenge - Anasayfa</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Rubik"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/5b12ffad4b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-	<title>Sprint Challenge - Anasayfa</title>
+  <body>
+    <div>
+      <!-- header -->
+      <header>
+        <div class="top-menu">
+          <h1><a href="index.html">ERGİNEER BAR VE MANGAL</a></h1>
 
-	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-	<div>
-		<!-- header -->
-		<header>
-			<div>
-				ERGİNEER BAR VE MANGAL
-
-				<!-- nav -->
-				Menü
-				Rezervasyonlar
-				Özel Teklifler
-				İletişim
+          <nav>
+            <div>
+              <a href="menu.html">Menü</a>
+              <a href="#">Rezervasyonlar</a>
+              <a href="#">Özel Teklifler</a>
+              <a href="#">İletişim</a>
+            </div>
+			<div class="icons">
+				<i class="fa-brands fa-square-facebook"></i>
+				<i class="fa-brands fa-square-twitter"></i>
+				<i class="fa-brands fa-square-instagram"></i>
 			</div>
-		</header>
+          </nav>
 
-		<!-- gallery section -->
-		<section class="gallery">
-			<div>
-				<h2>YEMEKLERİMİZ</h2>
+          
+        </div>
+      </header>
 
-				img/food-avocadotoast.jpg
+      <!-- gallery section -->
+      <section class="gallery">
+        <div>
+          <h2>YEMEKLERİMİZ</h2>
+          <img src="/img/food-avocadotoast.jpg" alt="avocado toast" />
+          <img src="/img/food-burger.jpg" alt="burger" />
+          <img src="/img/food-poutine.jpg" alt="poutine" />
+          <img src="/img/food-ribs.jpg" alt="ribs" />
+          <img src="/img/food-sandwich.jpg" alt="sandwich" />
+          <img src="/img/food-sausage.jpg" alt="sausage" />
+          <img src="/img/food-steak.jpg" alt="steak" />
+          <img src="/img/food-tacos.jpg" alt="tacos" />
+          <img src="/img/food-wings.jpg" alt="wings" />
+        </div>
+      </section>
 
-				img/food-burger.jpg
+      <!-- spacer -->
+      <div class="spacer"></div>
 
-				img/food-poutine.jpg
+      <!-- about section -->
+      <section class="about">
+        <div class="about-container">
+          <h2>HAKKIMIZDA</h2>
 
-				img/food-ribs.jpg
+          <div id="cooks" class="pic"></div>
 
-				img/food-sandwich.jpg
+          <div class="text">
+            <h3>Güzel Yemekler, Güzel İnsanlar</h3>
+            <p>
+              Quis duis aute, shank ut pork eiusmod in ball tip jerky non. Short
+              ribs tail dolore, fatback in tempor meatloaf pig sunt porchetta
+              beef. Ad hamburger pig veniam, andouille exercitation cillum
+              eiusmod doner irure tail burgdoggen rump chislic officia. Pancetta
+              frankfurter sed, est t-bone porchetta capicola id tri-tip cillum
+              cow leberkas do minim. Sausage ea velit boudin laboris dolore
+              short loin corned beef commodo jowl beef dolor tempor. Dolor culpa
+              enim in meatloaf, ham mollit shankle duis chicken dolore andouille
+              do tenderloin qui.
+            </p>
+          </div>
 
-				img/food-sausage.jpg
+          <div id="bartender" class="pic"></div>
+        </div>
+      </section>
 
-				img/food-steak.jpg
+      <!-- spacer -->
+      <div class="spacer"></div>
 
-				img/food-tacos.jpg
+      <!-- contact section -->
+      <section class="contact">
+        <div class="contact-container">
+          <h2>BİZE ULAŞIN</h2>
 
-				img/food-wings.jpg
-			</div>
-		</section>
+          <div class="info">
+            <div class="address">
+              <h3>Adres</h3>
 
-		<!-- spacer -->
-		<div class="spacer"></div>
+              <address>
+                <p>100. sokak</p>
+                <p>Oran, Ankara</p>
+              </address>
+            </div>
 
-		<!-- about section -->
-		<section class="about">
-			<div class="about-container">
-				<h2>HAKKIMIZDA</h2>
+            <div class="hours">
+              <h3>Saatler</h3>
 
-				<div id="cooks" class="pic">
-				</div>
+              <div>
+                <p>Pazartesiden Cumaya:</p>
+                <p>10:00 - 22:00</p>
+                <p>Friday and Saturday:</p>
+                <p>10:00 - 02:00</p>
+              </div>
+            </div>
 
-				<div class="text">
-					<h3>Güzel Yemekler, Güzel İnsanlar</h3>
-					<p>Quis duis aute, shank ut pork eiusmod in ball tip jerky non. Short ribs tail dolore, fatback in
-						tempor meatloaf pig sunt porchetta beef. Ad hamburger pig veniam, andouille exercitation cillum
-						eiusmod doner irure tail burgdoggen rump chislic officia. Pancetta frankfurter sed, est t-bone
-						porchetta capicola id tri-tip cillum cow leberkas do minim. Sausage ea velit boudin laboris
-						dolore
-						short loin corned beef commodo jowl beef dolor tempor. Dolor culpa enim in meatloaf, ham mollit
-						shankle duis chicken dolore andouille do tenderloin qui.</p>
-				</div>
+            <div class="contacts">
+              <h3>İletişim</h3>
 
-				<div id="bartender" class="pic">
-				</div>
-			</div>
-		</section>
+              <div>
+                <a id="phone" href="tel:999-999-9999">999-999-9999</a>
+                <a id="email" href="mailto:restoran@boomer.com"
+                  >restoran@ergineer.com</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-		<!-- spacer -->
-		<div class="spacer"></div>
+      <!-- spacer -->
+      <div class="spacer-sm"></div>
 
-		<!-- contact section -->
-		<section class="contact">
-			<div class="contact-container">
-				<h2>BİZE ULAŞIN</h2>
 
-				<div class="info">
-					<div class="address">
-						<h3>Adres</h3>
+	<footer>
 
-						<address>
-							<p>100. sokak</p>
-							<p>Oran, Ankara</p>
-						</address>
-					</div>
-
-					<div class="hours">
-						<h3>Saatler</h3>
-
-						<div>
-							<p>Pazartesiden Cumaya:</p>
-							<p>10:00 - 22:00</p>
-							<p>Friday and Saturday:</p>
-							<p>10:00 - 02:00</p>
-						</div>
-					</div>
-
-					<div class="contacts">
-						<h3>İletişim</h3>
-
-						<div>
-							<a id="phone" href="tel:999-999-9999">999-999-9999</a>
-							<a id="email" href="mailto:restoran@boomer.com">restoran@ergineer.com</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- spacer -->
-		<div class="spacer-sm"></div>
-
-		<!-- footer -->
-		<footer>
-			<!-- email signup -->
-			Mail listemize katılın!
-			Üye Ol
-			<!-- nav -->
-			Menü
-			Rezervasyonlar
-			Özel Teklifler
-			İletişim
-			<!-- copyright -->
-			©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.
-		</footer>
-	</div>
-</body>
-
+		<div class="mail-listesi">
+			<span>Mail listemize katılın!</span>
+			<form action="#">
+				<input type="text" placeholder="E-posta Adresi" />
+				<button><a class="button" href="#">Üye Ol</a></button>
+			</form>
+		</div>
+		<nav class="footer-menu">
+			<a href="menu.html">Menü</a>
+			<a href="#">Rezervasyonlar</a>
+			<a href="#">Özel Teklifler</a>
+			<a href="#">Contact</a>
+		</nav>
+		<p>©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.</p>
+	</footer>
+    </div>
+  </body>
 </html>
